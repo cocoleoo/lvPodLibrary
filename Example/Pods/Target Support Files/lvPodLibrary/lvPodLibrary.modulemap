@@ -1,0 +1,6 @@
+framework module lvPodLibrary {
+  umbrella header "lvPodLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}

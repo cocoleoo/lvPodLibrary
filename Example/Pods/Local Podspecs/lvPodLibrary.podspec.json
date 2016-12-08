@@ -1,0 +1,22 @@
+{
+  "name": "lvPodLibrary",
+  "version": "0.1.0",
+  "summary": "A short description of lvPodLibrary.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/lvPodLibrary",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "cocoleoo": "sundc@iccas.ac.cn"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/lvPodLibrary.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "lvPodLibrary/Classes/**/*"
+}

@@ -23,6 +23,9 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		8A59A7961DF90FC700CE5FE5 /* lvPodLibraryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A59A7941DF90FC700CE5FE5 /* lvPodLibraryViewController.m */; };
+		8A59A7971DF90FC700CE5FE5 /* lvPodLibraryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A59A7951DF90FC700CE5FE5 /* lvPodLibraryViewController.xib */; };
+		8A59A79A1DF90FEC00CE5FE5 /* lvPodLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A59A7991DF90FEC00CE5FE5 /* lvPodLibrary.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,10 +63,15 @@
 		61DE35BDA687A7B0C1D7091C /* Pods-lvPodLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lvPodLibrary_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lvPodLibrary_Example/Pods-lvPodLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6341EFB0DD34D582EE512CFF /* Pods-lvPodLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lvPodLibrary_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-lvPodLibrary_Example/Pods-lvPodLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		9B2595E2FB9B315112DC7CBB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8A59A7931DF90FC700CE5FE5 /* lvPodLibraryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lvPodLibraryViewController.h; sourceTree = "<group>"; };
+		8A59A7941DF90FC700CE5FE5 /* lvPodLibraryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lvPodLibraryViewController.m; sourceTree = "<group>"; };
+		8A59A7951DF90FC700CE5FE5 /* lvPodLibraryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = lvPodLibraryViewController.xib; sourceTree = "<group>"; };
+		8A59A7981DF90FEC00CE5FE5 /* lvPodLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lvPodLibrary.h; sourceTree = "<group>"; };
+		8A59A7991DF90FEC00CE5FE5 /* lvPodLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lvPodLibrary.m; sourceTree = "<group>"; };
+		9B2595E2FB9B315112DC7CBB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B991A8119419254A489CEA50 /* Pods-lvPodLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lvPodLibrary_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lvPodLibrary_Tests/Pods-lvPodLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		BB0C3359319288C9C31050E9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		C797285C7EE8F0BCE20AA98C /* lvPodLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = lvPodLibrary.podspec; path = ../lvPodLibrary.podspec; sourceTree = "<group>"; };
+		BB0C3359319288C9C31050E9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C797285C7EE8F0BCE20AA98C /* lvPodLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = lvPodLibrary.podspec; path = ../lvPodLibrary.podspec; sourceTree = "<group>"; };
 		DD9972523DEC3715058E3399 /* Pods-lvPodLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lvPodLibrary_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-lvPodLibrary_Tests/Pods-lvPodLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -96,6 +104,11 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				8A59A7981DF90FEC00CE5FE5 /* lvPodLibrary.h */,
+				8A59A7991DF90FEC00CE5FE5 /* lvPodLibrary.m */,
+				8A59A7931DF90FC700CE5FE5 /* lvPodLibraryViewController.h */,
+				8A59A7941DF90FC700CE5FE5 /* lvPodLibraryViewController.m */,
+				8A59A7951DF90FC700CE5FE5 /* lvPodLibraryViewController.xib */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for lvPodLibrary */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -247,6 +260,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = cocoleoo;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = PFE8Q677VE;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -276,6 +292,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A59A7971DF90FC700CE5FE5 /* lvPodLibraryViewController.xib in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -390,9 +407,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A59A7961DF90FC700CE5FE5 /* lvPodLibraryViewController.m in Sources */,
 				6003F59E195388D20070C39A /* XYZAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* XYZViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				8A59A79A1DF90FEC00CE5FE5 /* lvPodLibrary.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,6 +532,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = PFE8Q677VE;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "lvPodLibrary/lvPodLibrary-Prefix.pch";
 				INFOPLIST_FILE = "lvPodLibrary/lvPodLibrary-Info.plist";
@@ -529,6 +549,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = PFE8Q677VE;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "lvPodLibrary/lvPodLibrary-Prefix.pch";
 				INFOPLIST_FILE = "lvPodLibrary/lvPodLibrary-Info.plist";
