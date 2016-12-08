@@ -1,0 +1,14 @@
+use_frameworks!
+
+target 'lvPodLibrary_Example' do
+  pod 'lvPodLibrary', :path => '../'
+
+  target 'lvPodLibrary_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'Expecta+Snapshots'
+  end
+end
